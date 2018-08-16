@@ -21,7 +21,7 @@ public interface Constants {
 	 *  Table Structure offset Long, Enqueue Time (Timestamp), Body (Variant) and CurrentTime (Timestamp)
 	 */
 	
-	String INSERT_DATA_INTO_SNOWFLAKE = "insert into sparkEventHubPOC "
+	String INSERT_DATA_INTO_SNOWFLAKE = "insert into <tableName> "
 					 +"select '%s','%s', parse_json('%s'),CURRENT_TIMESTAMP::timestamp_ntz";
 	
 	String SNOWFLAKE_JDBC_DRIVER_NAME="net.snowflake.client.jdbc.SnowflakeDriver";
