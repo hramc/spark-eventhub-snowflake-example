@@ -21,7 +21,7 @@ public class SparkApplication {
 		// Create a local spark session
 		SparkSession spark = SparkSession
                 .builder()
-                .appName("Spark FaultCode Snwoflake SQL POC")
+                .appName("Spark Event Hub Snwoflake Example")
                 .master("local")
                 .getOrCreate();
 		
