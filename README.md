@@ -1,4 +1,4 @@
-# spark-eventhub-snowflake-example
+# spark-eventhub-snowflake-example 
 Spark application which reads data from Eventhub and ingested the same in Snowflake Data warehouse
 
 Please open the Constants.java file and provides all the neccessary information.
